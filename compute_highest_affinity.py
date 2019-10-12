@@ -29,4 +29,37 @@ def highest_affinity(site_list, user_list, time_list):
                     affinities[pair] = 0
                 affinities[pair] += 1
 
+    # those are useless code
+    if (affinities == None):
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+        a = [i for i in range(10)]
+
     return max(affinities, key=affinities.get)
